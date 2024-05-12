@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Замовлення</title>
+	<link rel="stylesheet" type="text/css" href="../css/blog.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script defer type="text/javascript" src="../app/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h2 class="header__title">Сторінка для замовлення</h2>
+			<h3 class="header__title1">since 2024</h3>
+		</header>
+	</div>
+    <article class="slide">
+        <div class="text" onclick="showDiscountAlert()">Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!!</div>
+    </article>
+    <a href="../index.html" class="back-link">← На головну</a>
+	<h3 class="h3">Форма замовлення неонових вивісок</h3>
+    <form class="form" action="site.php" method="post">
+        <label class="label" for="name">Ім'я:</label><br>
+        <input class="input" type="text" id="name" name="name" required><br><br>
+
+        <label class="label" for="email">Електронна пошта:</label><br>
+        <input class="input" type="email" id="email" name="email" required><br><br>
+
+        <label class="label" for="phone">Телефон:</label><br>
+        <input class="input" type="tel" id="phone" name="phone" required><br><br>
+
+        <label class="label" for="design">Дизайн (опишіть ваші вимоги):</label><br>
+        <textarea class="textarea" id="design" name="design" rows="4" cols="50"></textarea><br><br>
+
+        <label class="label" for="size">Розмір:</label><br>
+        <input class="input" type="text" id="size" name="size"><br><br>
+
+        <label class="label" for="quantity">Кількість:</label><br>
+        <input class="input" type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
+
+        <input class="input" type="submit" value="Надіслати замовлення">
+    </form>
+    <br>
+    <footer class="footer">
+        <article class="inform">
+            <p>Телефон <br> (096)40-16-896</p>
+            <p>E-mail <br> neons.ua@gmail.com</p>
+            <p>Адреса <br> м.Вінниця, вул.Соборна 3</p>
+        </article>
+    </footer>
+</body>
+</html>
